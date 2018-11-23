@@ -1,0 +1,18 @@
+---
+title: "developing_dp_map"
+author: "Zucethy Obando"
+date: "11/23/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r cars}
+library(leaflet)
+leaflet() %>%
+  addProviderTiles(provider = "CartoDB") %>%
+  setView(lat = 9.938260, lng = -84.102242, zoom = 13) %>%
+  addMarkers(lat = 9.938260, lng = -84.102242)
+```
