@@ -1,0 +1,38 @@
+
+BC Liquor Store Prices
+========================================================
+author: Zucethy Obando
+date: 12/18/2018
+autosize: true
+
+Agenda
+- Motivation
+- Data Exploration
+- Application Description
+
+Motivation
+========================================================
+This presentation contains documentation for the BC Liquor Store price exploration. It is part two of the project.
+
+Data Exploration
+========================================================
+```{r, echo=FALSE}
+setwd("C:/Users/zoband/Documents/Personal Training/shiny_app")
+bcl <- read.csv("bcldata.csv", stringsAsFactors = FALSE)
+summary(bcl)
+```
+
+Application Description
+========================================================
+
+This application is intended to explore the products available at the BC Liquor Store, that is part of Course Project for Developing Data Products.
+It was created using shiny package. The application link is: https://zobando.shinyapps.io/shiny_app/
+
+Shiny Files are:
+- ui.R
+- server.R
+
+Github link:
+
+
+
